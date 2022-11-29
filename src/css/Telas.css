@@ -1,0 +1,18 @@
+.Container {
+  height: 400px;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.Container--grid {
+  width: 300px;
+  display: grid;
+  gap: 20px;
+}
+
+section {
+  width: 100%;
+}

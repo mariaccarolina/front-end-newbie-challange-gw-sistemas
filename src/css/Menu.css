@@ -1,0 +1,24 @@
+.Menu {
+  background-color: white;
+  padding: 3em 1em;
+  /* box-shadow: inset 0px 0px 3px black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.Menu div {
+  display: flex;
+  gap: 10px;
+}
+
+.Menu a {
+  color: black;
+}
+
+.Menu a:target {
+  color: blue;
+}
+
+button{
+  background: none;
+}

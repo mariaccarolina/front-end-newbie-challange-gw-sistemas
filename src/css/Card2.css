@@ -1,0 +1,42 @@
+.Card2 {
+  box-shadow: 3px 3px 10px #ababab;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  padding: 1em 1em;
+  gap: 2em;
+  align-items: center;
+  margin: 1em;
+  border-radius: 1em;
+  font-size: 1em;
+  min-height: 150px;
+}
+
+.Card2 div {
+  height: 100%;
+}
+
+.Card2 .g2 {
+  display: grid;
+  align-content: center;
+}
+
+.Card2 hr {
+  border: none;
+  border-top: solid 1px #70707055;
+  margin: 0.4em 0;
+}
+
+.Card2 h4 {
+  font-size: 1.3em;
+}
+
+.Card2 p {
+  color: #707070;
+}
+
+.Card2 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  object-fit: cover;
+}
